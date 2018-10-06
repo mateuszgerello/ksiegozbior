@@ -1,0 +1,11 @@
+1 ; Pan tateusz ; juliusz slowacki ; WYPOZYCZONA;2018-09-10;2018-10-10;kowalski
+2 ; maly ksiaze ; niepamietam kto to napisal ; USZKODZONA
+3 ; wprowadzenie do javy ; Tomasz Rutyna ; DOSTEPNA
+5 ; asd ; asd ; DOSTEPNA
+6 ; jacek ; nowak ; DOSTEPNA
+7 ; dddas ; janwk ; DOSTEPNA
+8 ; asdj ; asjdwufrw  rfe ; DOSTEPNA
+9 ; dsadas ; sdjfw ; DOSTEPNA
+10 ; ddddddddd ; sadfjnwfwof ; DOSTEPNA
+11 ; asd ; asd ; DOSTEPNA
+12 ; qwe ; qwe ; DOSTEPNA
