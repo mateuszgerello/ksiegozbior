@@ -55,7 +55,6 @@ public class Ksiegozbior {
 
     public void wczytajKsiazki() {
 
-
         try (BufferedReader reader = Files.newBufferedReader(plik, kodowanie)) {
             while (true) {
                 String linia = reader.readLine();
@@ -67,14 +66,12 @@ public class Ksiegozbior {
                 if (czesciLini[3].trim().equals("WYPOZYCZONA")) {
                     this.ksiazki.add(new Ksiazka(Integer.valueOf(czesciLini[0].trim()), czesciLini[1].trim(), czesciLini[2].trim(), LocalDate.parse(czesciLini[4]), LocalDate.parse(czesciLini[5]), czesciLini[6]));
                 } else {
-                    this.ksiazki.add(new Ksiazka(Integer.valueOf(czesciLini[0].trim()),czesciLini[1].trim(), czesciLini[2].trim(), czesciLini[3].trim()));
+                    this.ksiazki.add(new Ksiazka(Integer.valueOf(czesciLini[0].trim()), czesciLini[1].trim(), czesciLini[2].trim(), czesciLini[3].trim()));
                 }
-
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     public void wyswietlPoAutorze(String autor) {
