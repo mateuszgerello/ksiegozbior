@@ -9,9 +9,7 @@ public class Ksiazka {
     private Integer id;
     private String tytul;
     private String autor;
-
     private StatusKsiazki status;
-
     private LocalDate wypozyczonaOd;
     private LocalDate wypozyczonaDo;
     private String wypozyczonaPrzez;
@@ -23,16 +21,17 @@ public class Ksiazka {
         this.autor = autor;
         this.status = StatusKsiazki.DOSTEPNA;
     }
-    public Ksiazka(Integer id, String tytul,String autor ,String status){
-        sekwencjaId=id;
-        this.id=id;
+
+    public Ksiazka(Integer id, String tytul, String autor, String status) {
+        sekwencjaId = id;
+        this.id = id;
         this.tytul = tytul;
         this.autor = autor;
         this.status = StatusKsiazki.valueOf(status);
     }
 
-    public Ksiazka( Integer id, String tytul, String autor,LocalDate wypozyczonaOd, LocalDate wypozyczonaDo, String wypozyczonaPrzez) {
-        sekwencjaId=id;
+    public Ksiazka(Integer id, String tytul, String autor, LocalDate wypozyczonaOd, LocalDate wypozyczonaDo, String wypozyczonaPrzez) {
+        sekwencjaId = id;
         this.id = id;
         this.tytul = tytul;
         this.autor = autor;
